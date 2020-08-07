@@ -1,0 +1,190 @@
+/*===== Basic Styles ======*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: #E5E5E5;
+    overflow-x: hidden;
+    font-family: "Averta-Regular";
+}
+
+/*===== Administrator Dashboard Login======*/
+header {
+    height: 80px;
+    background: #0B0B10;
+}
+
+header svg {
+    margin-top: 30px;
+  }
+
+.heading-name h4 {
+    margin-top: 98px;
+    margin-bottom: 18px;
+    line-height: 28px;
+    color: #4D4D4D;
+    font-family: "Averta-Bold";
+    margin-left: 10px;
+}
+
+.adjust-font-size p {
+    line-height: 19px;
+    color: #666666;
+    margin-top: 68px;
+    font-family: "Averta";
+}
+
+#radio-1 {
+    margin: 20px;
+    background: #E7332B;
+}
+
+.back-whiteBox {
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 73%;
+    height: 535px;
+}
+
+.zuri-intern,
+.zuri-train {
+    background: #FAFAFA;
+    border: 0.5px solid #CCCCCC;
+    border-radius: 4px;
+    height: 159px;
+}
+
+.zuri-intern:hover,
+.zuri-train:hover {
+    background: #FFEFED;
+    border: 0.5px solid #F8444F;
+    border-radius: 4px;
+}
+
+.zuri-train {
+    margin-top: 56px;
+}
+
+.zuri-intern {
+    margin-left: 100px;
+    margin-bottom: 64px;
+    margin-top: 56px;
+}
+
+.zuri-intern svg {
+    margin-top: 10px;
+}
+
+.zuri-train svg {
+    margin-top: 10px;
+}
+
+.login-button {
+    background: #E7332B;
+    border-radius: 4px;
+    width: 182px;
+    height: 46px;
+}
+
+@media (max-width:500px) {
+     header svg {
+    margin-left: 50px;
+   
+  }
+    .adjust-font-size p {
+        margin-top: 30px;
+    }
+
+    .heading-name h4 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+
+    .zuri-train {
+        margin-top: 16px;
+    }
+
+    .zuri-intern {
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .zuri-intern:hover,
+    .zuri-train:hover {
+        border: 0.5px solid #F8444F;
+    }
+}
+
+@media (max-width: 900px) {
+    header svg {
+    margin-left: 50px;
+     }
+    
+    .zuri-intern {
+        margin-left: 0px;
+        margin-bottom: 30px;
+        margin-top: 16px;
+    }
+
+    .zuri-train {
+        margin-top: 16px;
+    }
+
+    .zuri-intern:hover,
+    .zuri-train:hover {
+        border: 0.5px solid #F8444F;
+    }
+}
+
+/*===== Internship Login ======*/
+.title-box {
+    margin-top: 71px;
+    margin-bottom: 16px;
+}
+
+.login-back-whiteBox {
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 72%;
+    height: 598px;
+    margin-top: 30px;
+}
+
+.login-train-button {
+    background: #E7332B;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 98px;
+    height: 46px;
+    margin-top: 96px;
+}
+
+input {
+    background: #FFFFFF;
+    opacity: 0.6;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+
+/*===== Training Login< ======*/
+label {
+    color: #4D4D4D;
+    font-family: "Averta-Regular";
+}
+
+.login-intern-button {
+    background: #E7332B;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 98px;
+    height: 46px;
+    margin-top: 48px;
+}
